@@ -4,19 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <link
-      rel="icon"
-      href="https://pics.freeicons.io/uploads/icons/png/20916835381642069607-512.png"
-    />
+    <link rel="icon" href="img/earth.png" />
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="" id="city-select">
+        <option value="" id="city-select">Select a City</option>
+        <option value="">Current Location</option>
+        <option value="America/Vancouver">Vancouver</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Europe/Istanbul">Istanbul</option>
+      </select>
+      <div class="city">
+        <h2 class="Asia/Seoul">Seoul</h2>
+        <div class="date">August 29, 2023</div>
+        <div class="time">10:30:12 AM</div>
+      </div>
+      <div class="city">
+        <h2 class="Asia/Dubai">Dubai</h2>
+        <div class="date">August 29, 2023</div>
+        <div class="time">10:30:12 AM</div>
+      </div>
+      <div class="city">
+        <h2 class="Europe/London">London</h2>
+        <div class="date">August 29, 2023</div>
+        <div class="time">10:30:12 AM</div>
+      </div>
+    </div>
     <footer>
       <a href="https://github.com/bexster/world-clock-proj" target="_blank"
-        >Open-source code</a
+        >Open-sourced on GitHub</a
       >
-      by Becky Van Meter
+      and hosted on Netlify by
+      <a href="https://www.instagram.com/kpop.bexster/" target="_blank"
+        >Becky Van Meter</a
+      >
     </footer>
     <script src="src/index.js"></script>
   </body>
