@@ -47,12 +47,9 @@ h2 {
   opacity: 0.6;
 }
 .time {
+  vertical-align: middle;
   font-size: 50px;
   font-weight: 500;
-}
-.midday {
-  vertical-align: middle;
-  font-size: 30px;
 }
 footer {
   background: linear-gradient(to right, #868f96 0%, #596164 100%);
