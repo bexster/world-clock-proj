@@ -1,7 +1,71 @@
 body {
+  background-image: url("../img/world-sign.jpg");
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
 }
 h1,
 footer {
   text-align: center;
+  padding: 10px;
+}
+h2 {
+  margin-bottom: 5px;
+}
+.city {
+  display: flex;
+  margin: 10px 0;
+  padding: 15px 0;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  margin-top: 0;
+  line-height: 20px;
+  font-size: 15px;
+  opacity: 0.6;
+}
+.time {
+  font-size: 50px;
+  font-weight: 500;
+}
+.midday {
+  vertical-align: middle;
+  font-size: 30px;
+}
+footer {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  color: #f2ebeb;
+  max-width: 600px;
+  border-radius: 13px;
+  margin: 15px auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+a {
+  color: #90f2f7;
+  text-decoration: none;
+}
+a:hover {
+  color: #b7b5fb;
 }
