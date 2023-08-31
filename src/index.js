@@ -50,7 +50,8 @@ function updateCity(event) {
     "ss A"
   )}</small>
     </div>
-  </div>`;
+  </div>
+  <a href="/" class="cities-link">All Cities</a>`;
 }
 
 let citySelectElement = document.querySelector("#city");
